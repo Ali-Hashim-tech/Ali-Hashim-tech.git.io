@@ -1,0 +1,36 @@
+body{
+    background-color: chocolate;
+}
+table{
+    width: 50;
+    border-collapse: separate;
+    border-radius: 2px;
+}
+td,th{
+    border: 2px solid black ;
+    padding: 6px;
+}
+
+tr{
+    background-color: salmon;
+  }
+
+tr:hover {
+    background-color: red;
+    height: 50px;
+}
+th:hover{
+    color: blue;
+}
+td:hover{
+    color: skyblue;
+}
+ul {
+        
+    background-color:aquamarine;
+}
+ol {
+    width: 70px;
+    background-color:aquamarine;
+}
+
