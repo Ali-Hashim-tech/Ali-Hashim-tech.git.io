@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Python</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Learn Python</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><button>Home</button></a></li>
+                <li><a href="collect.html"><button>Collect Information</button></a></li>
+                <li><a href="python.html"><button>Learn Python</button></a></li>
+                <li><a href="about.html"><button>About</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="theme-toggle">
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+    
+    <div class="container">
+        <h2>Welcome to Python Programming</h2>
+        <p>Welcome to the “Ultimate Python Programming Handbook," your comprehensive guide to mastering Python programming. This handbook is designed to help beginners and anyone looking to strengthen their foundational knowledge of Python, a versatile and user-friendly programming language.</p>
+
+        <h3>Purpose and Audience</h3>
+        <p>This handbook is crafted to make programming accessible and enjoyable for everyone. Whether you're a student new to coding, a professional looking to enhance your skills, or an enthusiast exploring Python, this guide will be invaluable. Python's simplicity and readability make it an ideal starting point for anyone interested in programming.</p>
+
+        <h3>Structure and Content</h3>
+        <ul>
+            <li><strong>Fundamental Concepts:</strong> Cover the basics, such as installing Python and writing your first program.</li>
+            <li><strong>Practical Examples:</strong> Illustrate concepts with examples and sample code.</li>
+            <li><strong>Hands-On Exercises:</strong> Reinforce learning with end-of-chapter exercises.</li>
+            <li><strong>Additional Resources:</strong> Provide references to official Python documentation for deeper exploration.</li>
+        </ul>
+
+        <h3>Why Python?</h3>
+        <p>Python is renowned for its simplicity and readability, making it perfect for beginners. As a high-level, interpreted language, Python supports a wide range of libraries and frameworks, making it suitable for web development, data analysis, artificial intelligence, and more. Its versatility and ease of use make it an invaluable tool for both novice and experienced programmers.</p>
+
+        <h3>Acknowledgements</h3>
+        <p>I extend my gratitude to the educators, programmers, and contributors who have shaped this handbook. Special thanks to all the students watching my content on YouTube and the Python community for maintaining a supportive and inspiring environment for learners worldwide.</p>
+
+        <h3>Conclusion</h3>
+        <p>Learning programming can be exciting and challenging. The “Ultimate Python Programming Handbook" aims to make your journey smooth and rewarding. Follow this guide and watch the accompanying video content for optimal learning. Let this guide be your stepping stone to success in the world of programming.</p>
+
+        <h2>Chapter 1: Getting Started with Python</h2>
+
+        <h3>1.1 Installing Python</h3>
+        <p>To start programming in Python, you need to install Python on your computer. Here’s how you can do it:</p>
+        <ol>
+            <li><strong>Download Python:</strong> Go to the <a href="https://www.python.org/downloads/" target="_blank">official Python website</a> and download the latest version of Python suitable for your operating system.</li>
+            <li><strong>Run the Installer:</strong> Open the downloaded file and follow the installation instructions. Make sure to check the box that says “Add Python to PATH” before clicking “Install Now.”</li>
+            <li><strong>Verify Installation:</strong> Open your terminal or command prompt and type <code>python --version</code> to verify that Python is installed correctly.</li>
+        </ol>
+
+        <h3>1.2 Writing Your First Python Program</h3>
+        <p>Let’s write a simple Python program to get started:</p>
+        <ol>
+            <li><strong>Open a Text Editor:</strong> Use any text editor or an Integrated Development Environment (IDE) like PyCharm or VS Code.</li>
+            <li><strong>Write the Code:</strong>
+                <pre><code>print("Hello, World!")</code></pre>
+            </li>
+            <li><strong>Save the File:</strong> Save the file with a <code>.py</code> extension, for example, <code>hello.py</code>.</li>
+            <li><strong>Run the Program:</strong> Open your terminal or command prompt, navigate to the directory where your file is saved, and type <code>python hello.py</code> to run your program.</li>
+        </ol>
+
+        <h2>Chapter 2: Basic Python Concepts</h2>
+
+        <h3>2.1 Variables and Data Types</h3>
+        <p>Python supports various data types, including integers, floating-point numbers, strings, and more. Here’s how to declare variables:</p>
+        <pre><code># Integer
+x = 5
+
+# Float
+y = 3.14
+
+# String
+name = "Alice"</code></pre>
+
+        <h3>2.2 Basic Operators</h3>
+        <p>Python includes several operators for performing arithmetic operations:</p>
+        <pre><code># Addition
+sum = 5 + 3
+
+# Subtraction
+difference = 5 - 3
+
+# Multiplication
+product = 5 * 3
+
+# Division
+quotient = 5 / 3</code></pre>
+
+        <h3>2.3 Conditional Statements</h3>
+        <p>Use <code>if</code>, <code>elif</code>, and <code>else</code> to perform conditional operations:</p>
+        <pre><code>x = 10
+
+if x > 5:
+    print("x is greater than 5")
+elif x == 5:
+    print("x is 5")
+else:
+    print("x is less than 5")</code></pre>
+
+        <h3>2.4 Loops</h3>
+        <p>Python supports <code>for</code> and <code>while</code> loops:</p>
+        <pre><code># For loop
+for i in range(5):
+    print(i)
+
+# While loop
+i = 0
+while i < 5:
+    print(i)
+    i += 1</code></pre>
+
+        <h2>Chapter 3: Functions in Python</h2>
+
+        <h3>3.1 Defining Functions</h3>
+        <p>Functions in Python are defined using the <code>def</code> keyword. Here’s a basic example:</p>
+        <pre><code>def greet(name):
+    return "Hello, " + name
+
+print(greet("Alice"))</code></pre>
+
+        <h3>3.2 Function Parameters and Arguments</h3>
+        <p>Functions can take parameters and arguments. Here’s how to define a function with parameters:</p>
+        <pre><code>def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print(result)</code></pre>
+
+        <h3>3.3 Return Values</h3>
+        <p>Functions can return values using the <code>return</code> statement. Here’s an example:</p>
+        <pre><code>def square(number):
+    return number * number
+
+print(square(4))</code></pre>
+
+        <h3>3.4 Scope of Variables</h3>
+        <p>Variables defined inside a function are local to that function. Here’s an example:</p>
+        <pre><code>def local_variable_example():
+    x = 10  # Local variable
+    print(x)
+
+local_variable_example()
+print(x)  # This will cause an error because x is not defined outside the function</code></pre>
+
+        <h3>3.5 Lambda Functions</h3>
+        <p>Lambda functions are small anonymous functions defined with the <code>lambda</code> keyword:</p>
+        <pre><code>square = lambda x: x * x
+print(square(5))</code></pre>
+
+        <div><h1>More coming soon.........</h1></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
