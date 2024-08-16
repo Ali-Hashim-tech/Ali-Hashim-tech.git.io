@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: rgb(65, 65, 65);
+    color: #e0e0e0;
+
+}
+
+
+header {
+    background-color: yellow;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    color: rgb(232, 146, 7);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    width: 70vw;
+    padding: 8px;
+    border: 2px solid rgb(156, 75, 231);
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 4px 9px 10px gold;
+
+}
+
+.cont {
+    background-color: rgb(255, 156, 69);
+    font-size: 1.05rem;
+    color: white;
+    width: 93vw;
+    margin: 20px auto;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 4px 9px 10px rgb(129, 249, 249);
+}
+
+.cont h2 {
+    display: flex;
+    background: linear-gradient(45deg, #10b8ce, #7cdc80);
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.cont ul {
+    list-style-type: decimal;
+    padding: 0px 20px;
+
+}
+
+.cont ul li {
+    color: white;
+    font-weight: bold;
+}
+
+.box {
+    display: inline-block;
+    justify-content: center;
+    background-color: rgb(41, 202, 202);
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid #5fa761;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 20px 5px aqua;
+}
+.vid {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(48, 48, 48);
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid #5fa761;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 1px 1px 20px 5px red;
+}
+
+.vid figure {
+    text-align: center; /* Centers the caption below the video */
+    margin: 0;
+}
+
+.vid video {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.vid figcaption {
+    margin-top: 8px; /* Space between the video and the caption */
+    color: #e0e0e0; /* Caption color */
+    font-size: 0.9rem; /* Adjust font size as needed */
+}
+}
